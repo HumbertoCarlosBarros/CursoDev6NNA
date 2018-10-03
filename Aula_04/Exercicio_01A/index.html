@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exercicio_01A</title>
+<link rel="stylesheet" type="text/css" href="Exercicio_01A/index.css" />
+</head>
+<body>
+	<h1>Formulário de Cadastro</h1>
+	<form action="#" method="POST">
+		<fieldset class="Dados Pessoais">
+			<legend>Dados Pessoais</legend>
+			<label>Nome: <input type="text" name="nome" placeholder="Entre com o Nome" /></label><br/>
+			<label>E-mail: <input type="email" name="email" placeholder="Entre com o e-mail" /></label><br/>
+			<label>Cidade: <input type="text" name="cidade" placeholder="Entre com o Cidade" /></label><br/>
+			<label for="estado">Estado</label>
+			<select name="Estados do Brasil">
+				<option value="">Escolha</option>
+				<option value="AC">Acre</option>
+				<option value="AL">Alagoas</option>
+				<option value="AP">Amapá</option>
+				<option value="AM">Amazonas</option>
+				<option value="BA">Bahia</option>
+				<option value="CE">Ceará</option>
+				<option value="DF">Distrito Federal</option>
+				<option value="ES">Espírito Santo</option>
+				<option value="GO">Goiás</option>
+				<option value="MA">Maranhão</option>
+				<option value="MT">Mato Grosso</option>
+				<option value="MS">Mato Grosso do Sul</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="PA">Pará</option>
+				<option value="PB">Paraíba</option>
+				<option value="PR">Paraná</option>
+				<option value="PE">Pernambuco</option>
+				<option value="PI">Piauí</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="RO">Rondônia</option>
+				<option value="RR">Roraima</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="SP">São Paulo</option>
+				<option value="SE">Sergipe</option>
+				<option value="TO">Tocantins</option>
+			</select>
+		</fieldset>
+		
+		<fieldset class="dados-profissionais">
+	        <legend>Dados Profissionais</legend>
+	        <label for="cargo" class="sub-dprof"><b>Cargo pretendido:</b></label><br>
+	        <label for="analista-sistema"><input type="radio" id="analista-sistema" name="cargo" value="analista-sistema" checked="checked">Analista de Sistemas</label>
+	        <label for="analista-bd"><input type="radio" id="analista-bd" name="cargo" value="analista-bd">Analista de Banco de Dados</label>
+	        <label for="analista-suporte"><input type="radio" id="analista-suporte" name="cargo" value="analista-suporte">Analista de Suporte</label><br/>
+	        <label class="sub-dprof"><b>Tecnologias de interesse:</b></label><br>
+	        <label for="java"><input type="checkbox" id="java" value="java"  checked="checked"/>Java</label>
+	        <label for="html-css"><input type="checkbox" id="html-css" value="html-css" />HTML-CSS</label>
+	        <label for="javascript"><input type="checkbox" id="javascript" value="javascript" />javascript</label>
+	        <label for="sql"><input type="checkbox" id="sql" value="sql" />sql</label><br/>
+	        <label class="sub-dprof"><b>Mini currículo:</b></label><br>
+	        <textarea rows="10" cols="60%"></textarea> 
+		</fieldset>
+		
+		<fieldset class="acoes>">
+	        <legend><b>Ações</b></legend>
+	        <input type="submit" value="Enviar" />
+	        <input type="submit" value="Limpar" /><br/>
+	    </fieldset>
+	
+	</form>
+</body>
+</html>
