@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 div.index {
 	width: 200px;
 	margin: 0 45%;
@@ -15,6 +17,7 @@ div.index {
 div.index-lista {
 	text-align: left;
 }
+
 
 img {
 	width: 100px;

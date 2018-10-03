@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers thead th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+tbody th {
+	text-align: left;
+}
+
+tbody td {
+	text-align: center;
+}
+
+tfoot {
+	text-align: left;
+	background-color: #3f87a6;
+	color: #fff;
+}
+</style>
+
+<body>
+	<h1>Notas</h1>
+	<table id="customers">
+		<thead>
+			<tr>
+				<th scope="col">Disciplina</th>
+				<th scope="col">1° avaliação</th>
+				<th scope="col">2° avaliação</th>
+				<th scope="col">3° avaliação</th>
+				<th scope="col">4° avaliação</th>
+				<th scope="col">Média</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Matemática</th>
+				<td>8,0</td>
+				<td>8,0</td>
+				<td>7,0</td>
+				<td>7,0</td>
+				<td>7,5</td>
+			</tr>
+			<tr>
+				<th scope="row">Portugues</th>
+				<td>7,0</td>
+				<td>7,0</td>
+				<td>8,0</td>
+				<td>8,0</td>
+				<td>7,5</td>
+			</tr>
+			<tr>
+				<th scope="row">Geografia</th>
+				<td>8,0</td>
+				<td>8,0</td>
+				<td>7,0</td>
+				<td>7,0</td>
+				<td>7,5</td>
+			</tr>
+			<tr>
+				<th scope="row">História</th>
+				<td>8,0</td>
+				<td>8,0</td>
+				<td>7,0</td>
+				<td>7,0</td>
+				<td>7,5</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="6"><b>Média Geral: 7,06</b></td>
+			</tr>
+		</tfoot>
+	</table>
+
+</body>
+</html>

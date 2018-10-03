@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+
+table, th, td {
+   border: 1px solid black;
+}
+
+td {
+	text-align: center;
+}
+
+.disciplinas {
+	text-align: left;
+}
+
+</style>
+
+<body>
+	<table>
+		<caption></caption>
+		<thead>
+			<tr>
+				<th>Disciplina</th>
+				<th>Faltas</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="disciplinas">Matemática</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td class="disciplinas">Portugues</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td class="disciplinas">Geografia</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td class="disciplinas">Historia</td>
+				<td>2</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2"><b>Total de Faltas: 4</b></td>
+			</tr>
+		</tfoot>
+	</table>
+	<h2><a href="index.html">Voltar</a></h2>
+</body>
+</html>
