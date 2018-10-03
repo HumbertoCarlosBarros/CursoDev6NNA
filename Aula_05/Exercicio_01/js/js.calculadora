@@ -1,0 +1,28 @@
+var soma = document.querySelector("#soma");
+var subtracao = document.querySelector("#subtracao");
+var multiplicacao = document.querySelector("multiplicacao");
+var divisao = document.querySelector("divisao");
+
+
+soma.addEventListener("click", function(){
+    console.log("soma acionada");
+});
+td{
+    width: 170px;
+    font-size: 16pt;
+    font-family:Tahoma;
+       
+}
+h3{
+    color:red;
+}
+th{
+    font-size: 16pt;
+    color:blue;
+}
+#media{
+    font-style: italic;
+}
+#result{
+   font-weight: bold;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: #f1f1f1;
+}
+
+h3 {
+    color:#ff0000
+}
+
+table,th, tr, td {
+   font-size: 16px;
+   font-family: 'Times New Roman';
+   border: #000000 solid 1px;
+}
+
+th {
+    color: #0000ff;
+}
+
+.notas {
+    text-align: center;
+}
+
+#media {
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+h1 {
+	text-align: center;
+}
+
+form, h1 {
+	max-width: 50%;
+	margin: auto;
+}
+
+fieldset {
+	margin-top: 10px;
+	letter-spacing: 0.1em;
+	border: dashed 1px black;
+}
+
+fieldset input, select, textarea {
+	background-color: khaki;
+}
+
+
+.dados-pessoais, 
+.dados-pessoais > legend {
+	background-color: lightblue;
+}
+
+
+.dados-profissionais,
+.dados-profissionais > legend {
+	background-color: lightcoral;
+}
+
+
+.dados-pessoais > label,
+.sub-dprof {
+	font-weight: bold;
+}
+
+
+.acoes, legend {
+	background-color: lightgreen;
+}
+
+input[type=submit] {
+	margin-left: 45%;
+	display: inline-block;
+}
+}

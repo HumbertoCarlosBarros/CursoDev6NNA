@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div.index {
+	width: 200px;
+	margin: 0 45%;
+}
+
+.index-cabecalho,
+.perfil, 
+.cursos-cabecalho,
+.album {
+	text-align: center;
+}
+
+div.index-lista {
+	text-align: left;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.perfil,
+.cursos{
+	width: inherit;
+	margin:inherit;
+	
+}
+
+figure {
+	display: inline-flex;
+}
+
+figure img {
+    width: 200px;
+	height: 200px;
+}
