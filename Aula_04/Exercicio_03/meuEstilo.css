@@ -26,7 +26,7 @@ fieldset{
 }
 
  #msg-boas-vindas {
-    background-image: url("/Exercicio_03/Imagem/computer.png");
+    background-image: url("../Exercicio_03/Imagem/computer.png");
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
 }
